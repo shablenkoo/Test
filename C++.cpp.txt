@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() 
+{
+    string productName[] = {"Світшот", "Худі", "Лонгслів"};
+    int price[] = {150, 400, 200};
+
+    for (int i = 0; i < 3; ++i) 
+    {
+        cout << productName[i] << ": " << price[i] << " UAH" << endl;
+    }
+
+    return 0;
+}
